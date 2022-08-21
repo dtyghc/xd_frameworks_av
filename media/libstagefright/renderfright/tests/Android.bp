@@ -23,6 +23,7 @@ package {
 
 cc_test {
     name: "librenderfright_test",
+    defaults: ["surfaceflinger_defaults"],
     test_suites: ["device-tests"],
     srcs: [
         "RenderEngineTest.cpp",
